@@ -14,17 +14,12 @@ This is the source code for the bulk of PearAI's functionality.
 
 > Pre-requisite: you have installed [git][install-git], [node][install-node] and [pnpm][install-pnpm].
 
-1. Fork the repository:
-  1. Go to https://github.com/trypear/pearai-extension
-  2. Click "Fork" in top right
-  3. Click "Create fork"
-2. Clone the repo:
-  1. From your Fork, click "Code"
-  2. In the HTTPS tab, copy the url to your keyboard (ex: `https://github.com/<YOUR_GITHUB_ACCOUNT>/pearai-extension.git`)
-  3. From your terminal run `git clone <THE_COPIED_URL>`
-3. Go into the cloned repository: `cd pearai-extension`
-4. Install dependencies: `pnpm install`
-5. Build the extension: `pnpm build-all`
+1. Clone the repo: `git clone git@github.com:trypear/pearai-extension.git`
+1. Go into the cloned repository: `cd pearai-extension`
+1. Clone the repo: `git clone git@github.com:trypear/pearai-extension.git`
+1. Go into the cloned repository: `cd pearai-extension`
+1. Install dependencies: `pnpm install`
+1. Build the extension: `pnpm build-all`
 
 The project uses [TypeScript][typescript], [Vitest][vitest] for the tests and [Prettier][prettier] for the formatting.
 
